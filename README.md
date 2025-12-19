@@ -11,7 +11,7 @@ Official implementation of the paper: **"VietCheckMed: Explainable Regulatory Co
 
 ## 🚀 Project Overview
 
-VietCheckMed introduces a paradigm shift from traditional fact-checking to **Authorization-based Regulatory Compliance Checking**. It leverages an **Agentic RAG pipeline** to verify if medical advertisements on social media possess valid legal authorization according to Ministry of Health (MOH) and State Bank of Vietnam (SBV) regulations.
+VietCheckMed introduces a paradigm shift from traditional fact-checking to **Authorization-based Regulatory Compliance Checking**. It leverages an **Agentic RAG pipeline** to verify if medical advertisements on social media possess valid legal authorization according to Ministry of Health (MOH) regulations.
 
 ### Key Scientific Contributions:
 
@@ -21,15 +21,6 @@ VietCheckMed introduces a paradigm shift from traditional fact-checking to **Aut
 
 3. **Explainable Agentic Pipeline**: An architecture built on **LangGraph** that provides step-by-step reasoning grounded in regulatory evidence.
 
-## 🏗️ System Architecture
-
-VietCheckMed utilizes a state-of-the-art multi-agent system to simulate the workflow of a legal compliance expert.
-
-* **Retrieval Engine**: Optimized dense retrieval for Vietnamese legal corpora.
-
-* **Reasoning Agents**: Chain-of-Thought (CoT) agents that evaluate ads against specific articles of law.
-
-* **XAI Module**: Generates human-readable verdicts with explicit citations to legal documents.
 
 ## 🛠️ Installation & Setup
 
